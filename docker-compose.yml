@@ -3,17 +3,17 @@
 version: "3"
 services:
   train:
-    image: rahamshaik/paytmmstrain:latest
+    image: mrnikhil07/paytmmstrain:latest
     ports:
       - 80:80
     replicas: 3
   dth:
-    image: rahamshaik/paytmmsdth:latest
+    image: mrnikhil07/paytmmsdth:latest
     ports:
       - 81:80
     replicas: 3
   movies:
-    image: rahamshaik/paytmmsmovies:latest
+    image: mrnikhil07/paytmmsmovies:latest
     ports:
       - 82:80
     replicas: 3
